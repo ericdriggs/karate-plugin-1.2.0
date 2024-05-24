@@ -1,0 +1,33 @@
+= karate plugin for karate 1.2.0
+
+
+== Issues
+
+
+1. Cannot run code using karate plugin if karate 1.2.0 (hangs on `DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js`)
+
+* Not being able to run code is a blocker for maintaining existing code still on karate 1.2.0
+
+2. Cannot debug code using karate 1.2.0
+* lower priority but would still be desirable
+
+* Can live with only being able to debug >=1.3 or >=1.4
+
+
+3. Unable to successfully register previous versions of plugin which might be compatible with karate 1.2.0
+
+* Settings -> Languages & Frameworks -> Karate
+
+** expected: Signed in as Eric Driggs | Products: [PRO]
+** actual: Signed in as Eric Driggs | Products: []
+
+* Run/debug fail due to requiring pro version, actual products []
+
+
+
+
+== Workarounds attempted
+
+* download previous versions of plugin
+
+** was not able to register previous versions of plugin. registration said successful, but
